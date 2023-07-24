@@ -1,0 +1,73 @@
+body {
+    background-color: aquamarine;
+}
+
+.tab-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: bisque;
+    border-radius: 5px;
+    border: none; 
+}
+
+div.tab-header {
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.user{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.email{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.password{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+#signup{
+    padding: 15px;
+    margin: 15px;
+}
+
+
+#login{
+    padding: 15px;
+    margin: 15px;
+}
+
+#signup:hover{
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    border: none;   
+}
+
+#login:hover{
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
